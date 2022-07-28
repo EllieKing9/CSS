@@ -44,3 +44,82 @@
   </div>
 </body>
 </html>
+
+font-face {
+  src: url("../fonts/BMJUA_otf.otf");
+  font-family: "BMJUA_otf";
+}
+
+* {
+  box-sizing: border-box;
+  font-family: BMJUA_otf;
+}
+body {
+  background-color: #F0E8D9;
+}
+.menu_pan {
+  text-align: center;
+}
+.st_line {
+  font-size: 64px;
+  /*color: #58595B;*/
+  color: red;
+  margin-top: 75px;
+  margin-bottom: 30px;
+}
+.nd_line {
+  font-size: 32px;
+  color: #58595B;
+  margin-bottom: 75px;
+}
+.menu {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  /*border: 1px solid black;*/
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+.menu_img {
+  height: 200px;
+  /*vertical-align: top;*/
+  background-size: cover;
+  background-position: center center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.img_one {
+  background-image: url('../images/chicken.jpg');
+}
+.img_two {
+  background-image: url('../images/sushi.jpg');
+}
+.img_three {
+  background-image: url('../images/burger.jpg');
+}
+.img_four {
+  background-image: url('../images/bibimbap.jpg');
+}
+.menu_detail {
+  padding: 20px;
+  color: #58595B;
+}
+.menu_name {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.menu_expl {
+  text-align: left;
+  margin-bottom: 16px;
+}
+.menu_pay {
+  display: block;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
